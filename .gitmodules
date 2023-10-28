@@ -3,11 +3,6 @@
 	url = https://github.com/lemonviv/libhcs.git
 	branch = ded027c368
 	ignore = dirty
-[submodule "third_party/Pivot-SPDZ"]
-	path = third_party/Pivot-SPDZ
-	url = https://github.com/shazi4399/Pivot-SPDZ.git
-	branch = 844f9bae9b
-	ignore = dirty
 [submodule "third_party/libscapi"]
 	path = third_party/libscapi
 	url = https://github.com/cryptobiu/libscapi.git
