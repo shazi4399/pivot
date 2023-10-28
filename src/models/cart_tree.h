@@ -11,6 +11,7 @@
 #include "libhcs.h"
 #include "gmp.h"
 #include <vector>
+#include <map>
 #include "../utils/util.h"
 #include "../utils/encoder.h"
 #include "../include/common.h"

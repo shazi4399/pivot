@@ -1,13 +1,14 @@
 [submodule "third_party/libhcs"]
 	path = third_party/libhcs
-	url = git@github.com:lemonviv/libhcs.git
+	url = https://github.com/lemonviv/libhcs.git
+	branch = ded027c368
 	ignore = dirty
 [submodule "third_party/Pivot-SPDZ"]
 	path = third_party/Pivot-SPDZ
-	url = git@github.com:lemonviv/Pivot-SPDZ.git
+	url = https://github.com/lemonviv/Pivot-SPDZ.git
 	ignore = dirty
 [submodule "third_party/libscapi"]
 	path = third_party/libscapi
-	url = git@github.com:cryptobiu/libscapi.git
+	url = https://github.com/cryptobiu/libscapi.git
     branch = b77816a8ad
     ignore = dirty
