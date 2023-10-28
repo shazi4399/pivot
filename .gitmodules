@@ -11,3 +11,6 @@
 [submodule "third_party/zhCpp"]
 	path = third_party/zhCpp
 	url = https://github.com/shazi4399/zhCpp.git
+[submodule "third_party/Pivot-SPDZ"]
+	path = third_party/Pivot-SPDZ
+	url = https://github.com/shazi4399/Pivot-SPDZ.git
