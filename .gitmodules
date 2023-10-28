@@ -12,3 +12,6 @@
 	url = https://github.com/cryptobiu/libscapi.git
     branch = b77816a8ad
     ignore = dirty
+[submodule "third_party/zhCpp"]
+	path = third_party/zhCpp
+	url = https://github.com/shazi4399/zhCpp.git
