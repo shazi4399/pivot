@@ -31,7 +31,7 @@ RUN ssh-keyscan github.com >> /root/.ssh/known_hosts
 # Clone pivot and init submodules
 WORKDIR /opt
 RUN git config --global http.sslVerify false
-RUN git clone git@github.com:nusdbsystem/pivot.git && \
+RUN git clone https://github.com/shazi4399/pivot.git && \
     cd pivot/third_party/ && \
     git submodule update --init --recursive
 
