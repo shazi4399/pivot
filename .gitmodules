@@ -6,8 +6,8 @@
 [submodule "third_party/libscapi"]
 	path = third_party/libscapi
 	url = https://github.com/cryptobiu/libscapi.git
-    branch = b77816a8ad
-    ignore = dirty
+    	branch = 1f70a88548
+    	ignore = dirty
 [submodule "third_party/zhCpp"]
 	path = third_party/zhCpp
 	url = https://github.com/shazi4399/zhCpp.git
