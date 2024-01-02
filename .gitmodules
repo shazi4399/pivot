@@ -14,3 +14,6 @@
 [submodule "third_party/Pivot-SPDZ"]
 	path = third_party/Pivot-SPDZ
 	url = https://github.com/shazi4399/Pivot-SPDZ.git
+[submodule "third_party/Garnet"]
+	path = third_party/Garnet
+	url = https://github.com/shazi4399/Garnet.git
