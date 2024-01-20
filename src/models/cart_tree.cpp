@@ -299,7 +299,8 @@ bool DecisionTree::check_pruning_conditions_spdz(Client &client, int node_index)
         logger(logger_out, "Pruning condition case 1 satisfied\n");
     } else {
         // init static gfp for sending private batch shares and setup sockets
-        string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+        //string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+        string prep_data_prefix = "没用到的代码";
         initialise_fields(prep_data_prefix);
         // bigint::init_thread();
         std::vector<int> sockets = setup_sockets(NUM_SPDZ_PARTIES,
@@ -362,7 +363,8 @@ bool DecisionTree::check_pruning_conditions_spdz(Client &client, int node_index)
     // for regression, the label is djcs_t_aux_dot_product(labels, sample_ivs) / available_num
     if (is_satisfied) {
         // init static gfp for sending private batch shares and setup sockets
-        string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+        // string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+        string prep_data_prefix = "没用到的代码";
         initialise_fields(prep_data_prefix);
         // bigint::init_thread();
         std::vector<int> sockets = setup_sockets(NUM_SPDZ_PARTIES,
@@ -561,7 +563,8 @@ void DecisionTree::build_tree_node(Client & client, int node_index) {
     int sample_num = training_data.size();
     std::string result_str;
     // init static gfp for sending private batch shares
-    string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    // string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    string prep_data_prefix = "没用到的代码";
     //logger(logger_out, "prep_data_prefix = %s \n", prep_data_prefix.c_str());
     initialise_fields(prep_data_prefix);
     bigint::init_thread();
@@ -1778,7 +1781,8 @@ void DecisionTree::test_accuracy_enhanced(Client &client, float &accuracy) {
 
     // 1. init SPDZ related information
     // init static gfp
-    string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    //string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    string prep_data_prefix = "没用到的代码";
     //logger(logger_out, "prep_data_prefix = %s \n", prep_data_prefix.c_str());
     initialise_fields(prep_data_prefix);
     // bigint::init_thread();

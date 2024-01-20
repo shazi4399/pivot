@@ -511,7 +511,8 @@ void RandomForest::test_accuracy_with_spdz(Client &client, float &accuracy) {
                 client.ciphers_conversion_to_shares(prediction_trees,
                     shares, num_trees, 2 * FLOAT_PRECISION);
                 // communicate with spdz parties and receive mode
-                string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+                // string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+                string prep_data_prefix = "没用到的代码";
                 initialise_fields(prep_data_prefix);
                 // bigint::init_thread();
                 std::vector<int> sockets = setup_sockets(NUM_SPDZ_PARTIES,
@@ -546,7 +547,8 @@ void RandomForest::test_accuracy_with_spdz(Client &client, float &accuracy) {
                 client.ciphers_conversion_to_shares(prediction_trees,
                     shares, num_trees, 2 * FLOAT_PRECISION);
                 // communicate with spdz parties
-                string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+                // string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+                string prep_data_prefix = "没用到的代码";
                 initialise_fields(prep_data_prefix);
                 // bigint::init_thread();
                 std::vector<int> sockets = setup_sockets(NUM_SPDZ_PARTIES,

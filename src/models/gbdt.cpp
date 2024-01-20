@@ -580,7 +580,8 @@ void GBDT::compute_squared_label_vector(Client &client,
     std::vector<float> label_vector_shares;
     squared_label_vector = new EncodedNumber[sample_num];
     /*** init static gfp for sending private batch shares and setup sockets ***/
-    string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    // string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    string prep_data_prefix = "没用到的代码";
     initialise_fields(prep_data_prefix);
     bigint::init_thread();
     std::vector<int> sockets = setup_sockets(NUM_SPDZ_PARTIES,
@@ -653,7 +654,8 @@ void GBDT::compute_softmax_label_vector(Client &client, EncodedNumber *&softmax_
     int sample_num = training_data.size();
     std::vector<float> label_vector_shares;
     /*** init static gfp for sending private batch shares and setup sockets ***/
-    string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    //string prep_data_prefix = get_prep_dir(NUM_SPDZ_PARTIES, SPDZ_LG2P, gf2n::default_degree());
+    string prep_data_prefix = "没用到的代码";
     initialise_fields(prep_data_prefix);
     bigint::init_thread();
     std::vector<int> sockets = setup_sockets(NUM_SPDZ_PARTIES,
